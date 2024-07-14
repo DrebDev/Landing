@@ -1,0 +1,124 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* Estilos generales */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  /* Estilos del header */
+  .hero {
+    background: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .btn-contacto {
+    display: inline-block;
+    background: #28a745;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-contacto:hover {
+    background: #218838;
+  }
+  
+  /* Estilos de los servicios */
+  .servicios {
+    padding: 40px 0;
+    background: #f8f9fa;
+  }
+  
+  .servicios-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .servicio {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .servicio h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .servicio p {
+    font-size: 1.1rem;
+  }
+  
+  /* Estilos del contacto */
+  .contacto {
+    padding: 60px 0;
+    text-align: center;
+    background: #343a40;
+    color: #fff;
+  }
+  
+  .contacto ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contacto ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .contacto ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .contacto ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos del footer */
+  .footer {
+    background: #f8f9fa;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer p {
+    font-size: 1.1rem;
+  }
+  
+  
